@@ -1,0 +1,31 @@
+<div class="container__content-page flex items-start justify-center h-full min-h-screen px-[4%] bg-[#111111]">
+
+  <div class="relative container flex-col max-w-[720px]">
+    <app-menu-bar>
+
+    </app-menu-bar>
+
+
+
+    <div class="bg-[#171717] relative rounded-md overflow-hidden">
+      <img class="w-full max-h-[300px] min-h-[300px]: object-cover"  src="{{photoCover}}" alt="">
+      <div class="return absolute top-0 left-[2%] w-[8%] max-sm:w-[12%] pt-[2%]">
+        <a [routerLink]="['']">
+          <img src="https://cdn.discordapp.com/attachments/433291868579561474/1194178229427249202/arrowiosback_111116_1.png?ex=65af6824&is=659cf324&hm=1d420d7ade2ce58ee5eac36cac48c78b61b6805eac8d2f8139d5cfe58595525b&" alt="">
+        </a>
+      </div>
+      <div class="info p-[4%] text-white">
+        <span class="text-[#898B8F] text-[12px]" >{{contentDate}}</span>
+        <h1 class="font-bold text-[22px] py-5">{{contentTitle}}</h1>
+        <p class="text-[#898B8F]">{{contentInfo}}</p>
+      </div>
+
+
+
+    </div>
+
+
+
+    <app-footer-card></app-footer-card>
+  </div>
+</div>

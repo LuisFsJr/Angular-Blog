@@ -5,3 +5,14 @@
 *{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
 }
+
+app-home{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+  min-height: 100vh;
+  background: #111111;
+  padding-left: 4%;
+  padding-right: 4%;
+}
