@@ -1,27 +1,41 @@
-# BlogAngular
+# Projeto de Blog - Documentação
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+## Visão Geral
 
-## Development server
+Este documento fornece informações sobre o projeto de Blog desenvolvido com Angular e Tailwind CSS. O projeto foi criado como parte do Bootcamp de Angular na Digital Innovation One (DIO) em colaboração com o Banco Pan. O design do blog foi desenvolvido no Figma.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Tecnologias Utilizadas
 
-## Code scaffolding
+- Angular
+- Tailwind CSS
+- Figma
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Estilo com Tailwind CSS
 
-## Build
+O Tailwind CSS foi utilizado para a estilização do projeto. O arquivo `tailwind.config.js` contém a configuração para o Tailwind CSS.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Design
 
-## Running unit tests
+O design do projeto foi criado no Figma por mim mesmo e inclui layouts para duas páginas (Home e Content) e seus esquemas de cores e escolhas de tipografia.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Como Iniciar
 
-## Running end-to-end tests
+Para rodar o projeto localmente, siga estes passos:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone o repositório.
+2. Navegue até a pasta do projeto.
+3. Execute `npm install` para instalar as dependências.
+4. Execute `ng serve` para iniciar o servidor de desenvolvimento.
+5. Abra seu navegador e acesse `http://localhost:4200/`.
 
-## Further help
+## Contribuições
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contribuições para o projeto são bem-vindas. Siga o passo a passo padrão do GitHub:
+
+1. Faça um fork do repositório.
+2. Crie um novo branch para sua feature ou correção de bug.
+3. Faça suas alterações e envie um pull request.
+
+## Histórico de Versões
+
+- 1.0.0 (09/01/2024): Lançamento inicial do projeto de Blog.
