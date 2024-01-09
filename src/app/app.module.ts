@@ -8,6 +8,7 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { KeepReadingComponent } from './components/keep-reading/keep-reading.component';
+import { FooterCardComponent } from './components/footer-card/footer-card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { KeepReadingComponent } from './components/keep-reading/keep-reading.com
     SmallCardComponent,
     MenuBarComponent,
     HomeComponent,
-    KeepReadingComponent
+    KeepReadingComponent,
+    FooterCardComponent
   ],
   imports: [
     BrowserModule,
